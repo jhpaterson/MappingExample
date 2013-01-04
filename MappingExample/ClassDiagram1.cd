@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MappingExample.Address">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="Address" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAAAAAAAAAAAAAAAAgAAAAIAAAAgABAAIA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="postCode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MappingExample.Department">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="Department" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAIAAAACAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Department.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="employees" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MappingExample.Employee">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Employee" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="supervisor" Type="MappingExample.Employee" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.032" Y="0.5" />
+        <Point X="4.032" Y="0.125" />
+        <Point X="5.375" Y="0.125" />
+        <Point X="5.375" Y="1.16" />
+        <Point X="5" Y="1.16" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.466" Y="0.318" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAQAAQAUAAEIEAAACAAIQAAACAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="address" />
+      <Field Name="supervisor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MappingExample.HourlyPaidEmployee">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="HourlyPaidEmployee" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>HourlyPaidEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MappingExample.PostCode">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="PostCode" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAE=</HashCode>
+      <FileName>PostCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MappingExample.Program" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MappingExample.SalariedEmployee">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="SalariedEmployee" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAgAAAAQQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SalariedEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MappingExample.PayRate">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAYAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
