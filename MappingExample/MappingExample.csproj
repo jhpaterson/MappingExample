@@ -62,6 +62,7 @@
     <Compile Include="Address.cs" />
     <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeMapper.cs" />
     <Compile Include="HourlyPaidEmployee.cs" />
     <Compile Include="PostCode.cs" />
     <Compile Include="Program.cs" />
@@ -71,6 +72,11 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="company.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
